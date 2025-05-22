@@ -510,7 +510,7 @@ nav.cleeny_menu span {
 
 .hero-area {
     height: 814px;
-    background: url(assets/images/bannerfirst.jpeg);
+    background: url(assets/images/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2235,7 +2235,7 @@ h3.pricing-title {
 =======================================*/
 
 .testimonial-area {
-    /* background: url(assets/images/testi-bg.png); */
+    background: url(assets/images/testi-bg.png);
     padding: 111px 0 109px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2615,7 +2615,7 @@ h3.subscribe-title {
 =======================================*/
 
 .footer-area {
- background-color: #000000;
+    background: url(assets/images/footer-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2670,7 +2670,7 @@ p.footer-widget-text {
 
 .widget-title h2 {
     font-size: 24px;
-   
+    color: #ffffff;
     font-weight: 600;
     font-family: "Inter";
     margin-bottom: 26px;
@@ -2717,7 +2717,7 @@ p.footer-widget-text {
     text-decoration: none;
     font-size: 18px;
     line-height: 26px;
-    color:#ffff;
+    color: #ffffff;
     font-weight: 500;
     font-family: "Inter";
     transition: .5s;
@@ -2753,7 +2753,7 @@ p.footer-widget-text {
 h3.footer-title {
     font-size: 17px;
     line-height: 26px;
-
+    color: #ffffff;
     font-weight: 500;
     font-family: "Inter";
     margin: 0;
@@ -2762,7 +2762,7 @@ h3.footer-title {
 p.footer-title {
     font-size: 15px;
     line-height: 24px;
- 
+    color: #B9BBD2;
     font-weight: 400;
     font-family: "Poppins";
     margin: 0;
@@ -3758,7 +3758,7 @@ p.team-text {
 /*<---staet testimonial-area.style-two-css----->*/
 
 .testimonial-area.style-two {
-    background: url(assets/images/testi-bg2.png);
+    background: url(assets/images/address-bg.png);
     padding: 110px 0 88px;
 }
 
@@ -5036,7 +5036,7 @@ h3.blog-title-two a {
 =======================================*/
 
 .breatcome-area {
-    background: url(assets/images/breatcome-bg.png);
+    background: url(assets/images/address-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -6643,6 +6643,7 @@ p.blog-det-text {
     padding: 38px 39px 27px;
     box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
+   width: 150%;
 }
 
 .blog-details-meta {

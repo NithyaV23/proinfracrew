@@ -37,11 +37,201 @@
 	<!-- bootstrap icons -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
+<style>
+ .text {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
 
+        .card {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            max-width: 100%;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .card p {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+		        .values-container {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .values-container h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .values-container p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 2rem;
+        }
+
+        .values-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .value-column {
+            width: 320px;
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .value-column:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .value-column h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .value-column p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .values-grid {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+		 .Whychoose {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+      color: #1d3557;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      color: #2a2a2a;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    strong {
+      color: #1d3557;
+    }
+
+    @media (max-width: 600px) {
+      .section-title {
+        font-size: 1.5rem;
+      }
+    }
+	   .offer-section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #e5e5e5;
+    }
+
+    .offer-section h1 {
+      font-size: 3em;
+      color: #00197e;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .offer-list {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .offer-list li {
+      color: #002868;
+      font-size: 1.2em;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 600px) {
+      .offer-section h1 {
+        font-size: 2em;
+      }
+
+      .offer-list li {
+        font-size: 1em;
+      }
+    }	
+		</style>
 	
 </head>
 <body>
 	
+
 
 
 
@@ -127,40 +317,21 @@
 			<div class="col-lg-9">
 				<nav class="cleeny_menu">
 					<ul class="nav_scroll">
-						<li><a href="index-two.html">Home </a>
+						<li><a href="index.html">Home </i></a>
 							
 						</li>
 						<li><a href="about-us.html">About Us</a></li>
-						<li><a href="#">Service <i class="bi bi-chevron-down"></i></a>
+						<li><a href="#">Service </i></a>
 							<ul class="sub-menu">
-								<li><a href="service.html">Property Management</a></li>
-								<li><a href="service-details.html">Security Services</a></li>
-								<li><a href="service-details.html">Housekeeping Services</a></li>
-								<li><a href="service-details.html">Electrical Operations And Maintenance</a></li>
-								<li><a href="service-details.html">Mechanical Operations And Maintenance</a></li>
-								<li><a href="service-details.html">Plumbing Maintenance And Services</a></li>
-								<li><a href="service-details.html">Carpentry Services</a></li>
-								<li><a href="service-details.html">Gardening</a></li>
-								<li><a href="service-details.html">Pest Control</a></li>
+								<li><a href="service.html">Facility Management Services </a></li>
+								<li><a href="service.html">Property Maintenance </a></li>
+								<li><a href="service.html">Civil and Painting Contracts   </a></li>
+								<li><a href="service.html">Construction Project Management  </a></li>
 							</ul>
 						</li>
-						<li><a href="#">Pages <i class="bi bi-chevron-down"></i></a>
-							<ul class="sub-menu">
-								<li><a href="about-us.html">About Us</a></li>
-								<li><a href="team.html">Our Team</a></li>
-								<li><a href="testimonial.html">Testimonials</a></li>
-								<li><a href="project.html">Project</a></li>
-								<li><a href="project-details.html">Project Details</a></li>
-								<li><a href="priching.html">Pricing</a></li>
-								<li><a href="appoinment.html">Appoinment</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Blog <i class="bi bi-chevron-down"></i></a>
-							<ul class="sub-menu">
-								<li><a href="blog-grid.html">Blog Grid</a></li>
-								<li><a href="blog-list.html">Blog List</a></li>
-								<li><a href="blog-details.html">Blog Details</a></li>
-							</ul>
+						
+						<li><a href="Career.html">Career</i></a>
+							
 						</li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
@@ -186,40 +357,21 @@
 	<div class="mobile-menu">
 		<nav class="cleeny_menu">
 			<ul class="nav_scroll">
-				<li><a href="index.html">Home <i class="bi bi-chevron-down"></i></a>
-					<ul class="sub-menu">
-						<li><a href="index.html">Home Version 01</a></li>
-						<li><a href="index-two.html">Home Version 02</a></li>
-						<li><a href="index-three.html">Home Version 03</a></li>
-					</ul>
+				<li><a href="index.html">Home</a>
+					
 				</li>
 				<li><a href="about-us.html">About Us</a></li>
 				<li><a href="#">Service <i class="bi bi-chevron-down"></i></a>
-					<ul class="sub-menu">
-						<li><a href="service.html">Service</a></li>
-						<li><a href="service-details.html">Service Details</a></li>
-					</ul>
+			<ul class="sub-menu">
+								<li><a href="Facility.html">Facility Management Services </a></li>
+								<li><a href="Property.html">Property Maintenance </a></li>
+								<li><a href="Civil.html">Civil and Painting Contracts   </a></li>
+								<li><a href="Construction.html">Construction Project Management  </a></li>
+							</ul>
 				</li>
-				<li><a href="#">Pages <i class="bi bi-chevron-down"></i></a>
-					<ul class="sub-menu">
-						<li><a href="about-us.html">About Us</a></li>
-						<li><a href="team.html">Our Team</a></li>
-						<li><a href="testimonial.html">Testimonials</a></li>
-						<li><a href="project.html">Project</a></li>
-						<li><a href="project-details.html">Project Details</a></li>
-						<li><a href="priching.html">Pricing</a></li>
-						<li><a href="appoinment.html">Appoinment</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Blog <i class="bi bi-chevron-down"></i></a>
-					<ul class="sub-menu">
-						<li><a href="index.html">Home Version 01</a></li>
-						<li><a href="index-two.html">Home Version 02</a></li>
-						<li><a href="index-three.html">Home Version 03</a></li>
-						<li><a href="index-four.html">Home Landing 01</a></li>
-						<li><a href="index-five.html">Home Landing 02</a></li>
-						<li><a href="index-six.html">Home Landing 03 </a></li>
-					</ul>
+			
+				<li><a href="Career.html">Career</i></a>
+					
 				</li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
@@ -257,10 +409,10 @@
                             <h1>About Us</h1>
                         </div>
                         <div class="breatcome-text">
-                            <ul>
+                            <!-- <ul>
                                 <li><a href="index.html"><i class="bi bi-house-door-fill"></i>Cleeny</a></li>
                                 <li class="upper">About Us</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -289,11 +441,11 @@
 <!--==================================================-->
 
 	<div class="about-area style-two">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row about align-items-center">
 				<div class="col-lg-6">
 					<div class="about-thumb">
-						<img src="assets/images/about-thumb2.png" alt="about-thumb">
+						<img src="assets/images/proinfra1.jpeg" alt="about-thumb">
 						<div class="about-shape3 bounce-animate3">
 							<img src="assets/images/about-shape3.png" alt="about-shpe3">
 						</div>
@@ -305,84 +457,20 @@
 				<div class="col-lg-6">
 					<div class="section-title text-left">
 						<h5 class="section-sub-title">ABOUT US</h5>
-						<h1 class="section-main-title">Making Your House Clean</h1>
-						<h1 class="section-main-title">For Looks As a New</h1>
-						<p class="section-title-descr">Competently repurpose go forward benefits without goal-oriented ROI
-						conveniently target e-business opportunities whereas parallel task 
-						multimedia based web services</p>
+						<!-- <h1 class="section-main-title">Making Your House Clean</h1>
+						<h1 class="section-main-title">For Looks As a New</h1> -->
+						<p class="section-title-descr">Proinfra Crew is a trusted name in facility management, property maintenance, and contract-based construction services across South India. We deliver end-to-end solutions for residential, commercial, and industrial properties, ensuring operational efficiency, safety, and long-term asset value.</p>
 					</div>
-					<div class="about-box d-flex">
-						<ul class="about-list">
-							<li><i class="bi bi-check-circle-fill"></i>Cleeny Your Home or Office</li>
-							<li><i class="bi bi-check-circle-fill"></i>24/7 Emmergency Quality Services</li>
-							<li><i class="bi bi-check-circle-fill"></i>Online Booking System available</li>
-						</ul>
-						<div class="counter-single-box">
-							<div class="counter-icon">
-								<img src="assets/images/counter-icon.png" alt="">
-							</div>
-							<div class="counter-number">
-								<h1 class="counter">12</h1>
-								<h1>+</h1>
-							</div>
-							<p class="counter-text">Years Experience</p>	
-						</div>
-					</div>
-					<div class="cleeny-btn">
-						<a href="about-us.html">More About Us <i class="bi bi-arrow-right"></i></a>
-					</div>
+					
+					
 				</div>
 			</div>
 		</div>	
 	</div>
 
-<!--==================================================-->
-<!-- end cleeny about Area -->
-<!--==================================================-->
 
 
-<!--==================================================-->
-<!-- Start cleeny address Area -->
-<!--==================================================-->
-
-
-<div class="address-area style-two">
-    <div class="container">
-        <div class="row address align-items-center">
-            <div class="col-lg-5">
-                <div class="address-conten">
-                    <h1 class="address-title">Please Call Us to Take the</h1>
-                    <h1 class="address-title">Extraordinary Service!</h1>
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div class="address-thumb">
-                    <img src="assets/images/address-thumb.png" alt="">
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="cleeny-btn">
-                    <a href="appoinment.html"><i class="bi bi-telephone-fill"></i> Call : 123 (4567) 890</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!--==================================================-->
-<!-- end cleeny address Area -->
-<!--==================================================-->
-
-
-
-
-
-<!--==================================================-->
-<!-- start cleeny work Area -->
-<!--==================================================-->
-
-	<div class="work-area style-three">
+	<!-- <div class="work-area style-three">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -449,109 +537,74 @@
 				<img src="assets/images/work-shape4.png" alt="work-shape4">
 			</div>
 		</div>
+	</div> -->
+
+
+<div class="values-container">
+    <h1>Our integrated offerings span</h1>
+    <!-- <p>We are committed to maintaining a strong value structure that guides our operations and fosters a productive environment.</p> -->
+
+    <div class="values-grid">
+        <div class="value-column">
+            <h2>Facility Management Services</h2>
+            <p>Housekeeping, security, waste management, and vendor coordination</p>
+        </div>
+
+        <div class="value-column">
+            <h2>Property<br> Maintenance</h2>
+            <p>Plumbing, electrical repairs, HVAC, AMC-based services.</p>
+        </div>
+
+        <div class="value-column">
+            <h2>Civil and Painting<br> Contracts</h2>
+            <p>Interior and exterior painting, building renovation, civil repairs</p>
+        </div>
+
+        <div class="value-column">
+            <h2>Construction Project Management</h2>
+            <p>Turnkey execution, manpower deployment, site supervision.</p>
+        </div>
 	</div>
-
-
-
 <!--==================================================-->
 <!-- end cleeny work Area -->
 <!--==================================================-->
 
-
+	 <div style="max-width: 800px; margin: auto; margin-top: 20px;">
+    <h1 style="font-size: 2em; margin-bottom: 0.2em;">What is Facility Management?</h1>
+    <p style="font-size: 1em;">
+      Facility Management (FM) refers to the professional coordination of building operations and services—such as housekeeping, electrical and plumbing maintenance, waste disposal, and security—to ensure a clean, safe, and functional environment.
+    </p>
+    <p style="font-size: 1em;">
+      At Proinfra Crew, we offer both Annual Maintenance Contracts (AMCs) and dedicated workforce models to meet the unique needs of our clients across South India. Our focus is on minimizing downtime, streamlining operations, and enhancing infrastructure performance.
+    </p>
+  </div>
 
 <!--==================================================-->
 <!-- Start cleeny team Area -->
 <!--==================================================-->
 
+	 <div class="Whychoose">
+    <h2 class="section-title">Why Choose <span style="color:#457b9d;">Proinfra Crew</span>?</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Comprehensive Contracting Services</h3>
+        <p>From minor <strong>civil works</strong> to full-scale <strong>construction and renovation</strong>, we offer scalable, customized solutions.</p>
+      </div>
+      <div class="card">
+        <h3>Trusted Vendor Network</h3>
+        <p>We collaborate with verified vendors across <strong>plumbing, electrical, painting, and security services</strong>, ensuring reliability.</p>
+      </div>
+      <div class="card">
+        <h3>Transparent Operations</h3>
+        <p>Our contracts are clear, measurable, and free from hidden charges.</p>
+      </div>
+      <div class="card">
+        <h3>Regional Expertise</h3>
+        <p>With a deep understanding of South India’s infrastructure, compliance needs, and workforce logistics, we ensure smooth execution from start to finish.</p>
+      </div>
+    </div>
+  </div>
 	
-	<div class="team-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="section-title text-center">
-						<h5 class="section-sub-title">our team</h5>
-						<h1 class="section-main-title">Meet Our Expert Members</h1>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="tean-single-box">
-						<div class="team-thumb">
-							<img src="assets/images/team-thumb.png" alt="team-thumb">
-						</div>
-						<div class="tema-content">
-							<h3 class="team-title">Anjelina Watson</h3>
-							<p class="team-text">Home Cleaner</p>
-							<div class="team-socail-icon">
-								<ul>
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-									<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="tean-single-box">
-						<div class="team-thumb">
-							<img src="assets/images/team-thumb2.png" alt="team-thumb">
-						</div>
-						<div class="tema-content">
-							<h3 class="team-title">John D. Alexon</h3>
-							<p class="team-text">Electrician</p>
-							<div class="team-socail-icon">
-								<ul>
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-									<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="tean-single-box">
-						<div class="team-thumb">
-							<img src="assets/images/team-thumb3.png" alt="team-thumb">
-						</div>
-						<div class="tema-content">
-							<h3 class="team-title">Ellen D. Read</h3>
-							<p class="team-text">UI Designer</p>
-							<div class="team-socail-icon">
-								<ul>
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-									<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="tean-single-box">
-						<div class="team-thumb">
-							<img src="assets/images/team-thumb4.png" alt="team-thumb">
-						</div>
-						<div class="tema-content">
-							<h3 class="team-title">Henry Waters</h3>
-							<p class="team-text">Cleaner</p>
-							<div class="team-socail-icon">
-								<ul>
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-									<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
 
 <!--==================================================-->
@@ -738,9 +791,41 @@
 <!--==================================================-->
 <!-- end cleeny testimonial Area -->
 <!--==================================================-->
+<div class="blog-details-area">
+    <div class="container">
+        <div class="row">
+			<div class="col-lg-8 col-md-12">
+				<div class="blog-details-main" style="visibility: visible;">
+					<div class="row">
+						<div class="col-lg-12">
+							
+							<div class="blog-details-content">
+								<h2>Why Choose Proinfra Crew?</h2>
+								<li>
+          <strong>Expert-Led Operations:</strong> Our leadership, drawn from decades of experience in the construction and infrastructure domain, ensures operational efficiency, strategic oversight, and reliable service execution.
+        </li>
+        <li>
+          <strong>Onsite Supervision & Training:</strong> Our dedicated security managers and supervisors offer continuous support, regular audits, and onsite training to maintain consistent service standards.
+        </li>
+								<p>Integer pretium dolor id ligula elementum, at vulputate dolor accumsan. Nam eget massa et erat iaculis posuere id a neque. Morbi bibendum nisi vel eros ultrices, fringilla tincidunt nibh vehicula. Integer id nisl turpis. Aliquam sed ipsum quis nulla finibus rhoncus sit amet id nunc. Nunc justo quam, egestas a dictum ac, imperdiet eu diam.</p>
+							</div>
+							
+						
+					
+						
+					
+						
+					
+					
+					</div>	
+				</div>
+			</div>
+			
+        </div>
+    </div>
+</div>
 
-
-
+ 
 
 <!--==================================================-->
 <!-- Start cleeny subscribe Area -->
@@ -798,7 +883,7 @@
 			<div class="col-lg-3 col-md-6">
 				<div class="footer-widget">
 					<div class="footer-logo">
-						<a href="index.html"><img src="assets/images/footer-logo.png" alt="footer-logo"></a>
+						<a href="index.html"><img src="assets/images/logoooooo.jpg" alt="footer-logo"></a>
 					</div>
 					<p class="footer-widget-text">Competently repurpose forward conveniently target e-business multipurpose clean</p>
 					<div class="footer-social">
@@ -935,7 +1020,23 @@
 
 
 
-
+<!--==================================================-->
+<!-- Start scrollup section Area -->
+<!--==================================================-->
+<!-- scrollup section -->
+<div class="scroll-area">
+	<div class="top-wrap">
+		<div class="go-top-btn-wraper">
+			<div class="go-top go-top-button">
+				<i class="fas fa-arrow-up"></i>
+				<i class="fas fa-arrow-up"></i>
+			</div>
+		</div>
+	</div>
+</div>
+<!--==================================================-->
+<!-- Start scrollup section Area -->
+<!--==================================================-->
 
 <!--==================================================-->
 <!-- Start Search Popup Area -->
